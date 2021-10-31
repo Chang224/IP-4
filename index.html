@@ -5,11 +5,16 @@
         <script src="js/jquery-3.6.0.js"></script>
         <script src="js/srcipts.js"></script>
         <link href="css/style.css" rel="stylesheet" type="text/css">
-        <img src="img/pizza-logo.jpg" alt="pizza-logo">
-        <img src="img/pizza-logo1.jpg" alt="pizza-logo1">
+        <div class="box">
+          <img src="img/pizza-cartoon.jpg" alt="pizza-logo" width="250" height="1050">
+        </div>
+        <div class="box1">
+          <img src="img/pizza-cartoon1.jpg" alt="pizza-logo1" width="250" height="1050">
+        </div>
     </head>
+<body>
     <h1>Pizza Order</h1>
-    <p>Select your Pizza Size</p>
+    <h3><u>Select your Pizza Size</u></h3>
     <form>
           <input type="radio" id="small" name="pizza-size" value="small">
           <label for="small">Small<i> KES 450</i></label><br>
@@ -18,7 +23,7 @@
           <input type="radio" id="large" name="pizza-size" value="large">
           <label for="large">Large <i>KES 950</i></label>
     </form>
-    <p>Select your Pizza Crust</p>
+    <h3><u>Select your Pizza Crust</u></h3>
     <form>
           <input type="radio" id="thin" name="pizza-crust" value="thin">
           <label for="thin-crust">Hand Tossed Thin Crust <i>KES 50</i></label><br>
@@ -27,7 +32,7 @@
           <input type="radio" id="thick" name="pizza-crust" value="thick">
           <label for="thick-crust">Thick Pan Crust <i>KES 200</i></label>
     </form>
-    <p>Select your Pizza Toppings</p>
+    <h3><u>Select your Pizza Toppings</u></h3>
     <form>
           <input type="radio" id="pineapple" name="pizza-topping-pineapple" value="pineapple">
           <label for="pineapple">Pineapple <i>(Small Pizza) KES 40  (Medium Pizza) KES 70 (Large Pizza) KES 100</i></label><br>
@@ -50,7 +55,7 @@
           <input type="radio" id="sausage" name="pizza-topping-sausage" value="sausage">
           <label for="sausage">Sausage <i>(Small Pizza) KES 60  (Medium Pizza) KES 90 (Large Pizza) KES 120</i></label>
     </form>
-    <p>Choose your Pick-up location or Delivery location</p>
+    <h3><u>Choose your Pick-up location or Delivery location</u></h3>
     <form>
           <input type="radio" id="karen-branch-pick-up" name="pick-up" value="karen-branch-pick-up">
           <label for="karen-branch-pick-up">Karen Branch Pick-up</label><br>
@@ -63,4 +68,5 @@
           <input type="radio" id="delivery" name="pick-up" value="delivery">
           <label for="delivery">Delivery</label><br>
     </form>
+</body>
 </html>

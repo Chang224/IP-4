@@ -1,0 +1,12 @@
+.box img {
+    float: left;
+}
+.box1 img {
+    float: right;
+}
+img {
+    border: 5px solid maroon
+  }
+body {
+    text-align: center;
+}
