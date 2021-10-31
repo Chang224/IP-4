@@ -10,3 +10,9 @@ img {
 body {
     text-align: center;
 }
+.input {
+    display: inline-block;
+}
+.radio-container {
+    margin-left: 1200px;
+}
