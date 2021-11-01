@@ -30,6 +30,6 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $(":button").click(function() {
-    alert("Thank you!! Your pizza will be delivered in one hour.")
+    alert("Thank you!! Delivery time is one hour.")
     });
 });
