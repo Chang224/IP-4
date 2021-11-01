@@ -1,3 +1,13 @@
+body {
+    background-color: rgba(128, 128, 128, 0.507);
+}
+h1 {
+    text-decoration: Underline;
+    text-decoration-color: maroon;
+}
+h3 {
+    color: maroon;
+}
 .box img {
     float: left;
 }
@@ -21,4 +31,7 @@ body {
 }
 .pizza-size {
     vertical-align: bottom;
+}
+i {
+    color: maroon;
 }
