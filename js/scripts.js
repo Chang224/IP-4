@@ -33,3 +33,19 @@ $(document).ready(function() {
     alert("Thank you!! Delivery time is one hour.")
     });
 });
+
+$(document).ready(function() {
+    $("#small").click(function() {
+    $("#pizza-size").append("Small Pizza KES 450")
+    });
+});
+$(document).ready(function() {
+    $("#medium").click(function() {
+    $("#pizza-size").append("Medium Pizza KES 700")
+    });
+});
+$(document).ready(function() {
+    $("#large").click(function() {
+    $("#pizza-size").append("Large Pizza KES 950")
+    });
+});

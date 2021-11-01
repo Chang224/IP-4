@@ -19,3 +19,6 @@ body {
 .pick-up5 button {
     display: none;
 }
+.pizza-size {
+    vertical-align: bottom;
+}
