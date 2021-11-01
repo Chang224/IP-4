@@ -13,6 +13,6 @@ body {
 .input {
     display: inline-block;
 }
-.radio-container {
-    margin-left: 1200px;
+.pick-up5 textarea {
+    display: none;
 }

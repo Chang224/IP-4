@@ -3,13 +3,13 @@
     <title></title>
     <head>
         <script src="js/jquery-3.6.0.js"></script>
-        <script src="js/srcipts.js"></script>
+        <script src="js/scripts.js"></script>
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <div class="box">
-          <img src="img/pizza-cartoon.jpg" alt="pizza-logo" width="250" height="1050">
+          <img src="img/pizza-cartoon.jpg" alt="pizza-logo" width="250" height="1500">
         </div>
         <div class="box1">
-          <img src="img/pizza-cartoon1.jpg" alt="pizza-logo1" width="250" height="1050">
+          <img src="img/pizza-cartoon1.jpg" alt="pizza-logo1" width="250" height="1500">
         </div>
     </head>
 <body>
@@ -138,9 +138,14 @@
            &nbsp&nbsp&nbsp&nbsp&nbsp
           <input type="radio" id="city-centre-branch-pick-up" name="pick-up" value="city-centre-branch-pick-up">
           <label for="city-centre-branch-pick-up"><strong>City Centre Branch</strong> Pick -up</label><br>&nbsp&nbsp&nbsp&nbsp&nbsp
-           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-          <input type="radio" id="delivery" name="pick-up" value="delivery">
-          <label for="delivery"><strong>Delivery</strong><i> at an additional fee of KES 120</i></label><br>
-    </form>
+           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
+          <input id="delivery" type="radio" id="delivery" name="pick-up" value="delivery">
+          <label for="delivery"><strong>Delivery</strong><i> at an additional fee of KES 120</i></label><br><br>
+          <div class="pick-up5">
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <textarea id="delivery-textbox" placeholder="Delivery Address...." cols="40" rows="7"></textarea>
+          </div>
+        </form>
 </body>
 </html>
