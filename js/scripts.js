@@ -39,6 +39,7 @@ $(document).ready(function() {
     $("#pizza-size").append("Small Pizza KES 450")
     });
 });
+
 $(document).ready(function() {
     $("#medium").click(function() {
     $("#pizza-size").append("Medium Pizza KES 700")
