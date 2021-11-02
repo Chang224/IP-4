@@ -9,7 +9,7 @@ collect the pizza from one of our four branches.
 
 ### Pizza Sizes
 
-#####There are three main sizes:
+##### There are three main sizes:
 * Small
 * Medium
 * Large
@@ -41,7 +41,7 @@ collect the pizza from one of our four branches.
 * Avacado
 
 ## Live Link
-https://chang224.github.io/IP-3/
+https://chang224.github.io/IP-4/
 
 ## Technologies Used
 * HTMl (Hyper Text Mark Up Language)
