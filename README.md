@@ -26,13 +26,13 @@ collect the pizza from one of our four branches.
 
 ##### There are ten topping options
 
-####### Meat Toppings
+##### Meat Toppings
 * Sausage
 * Bacon
 * Chicken
 * Pepperoni
 
-####### Non-Meat Toppings
+##### Non-Meat Toppings
 * Pineapple
 * Olives
 * Mushrooms
