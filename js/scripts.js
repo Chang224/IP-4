@@ -30,7 +30,7 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $(":button").click(function() {
-    alert("Thank you!! Delivery time is one hour.")
+    alert ("Your order will be delivered to your location. Thank you!!")
     });
 });
 
